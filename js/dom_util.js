@@ -42,6 +42,8 @@ const itemTemplate = ({ id, name, clientNumber, creditNumber }) => `
     <div>${clientNumber}</div>
     <div>${creditNumber}</div>
     </p>
+    <a href="./edit.html"><button type="button" class="btn btn-info">Edit</button></a>
+    <button type="button" class="btn btn-danger">Delete</button>
   </div>
 </li>`;
 
